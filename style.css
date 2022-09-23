@@ -15,16 +15,20 @@ transition: 5s;}
     background: red;
 }
 /* soluzione 2 */
-    
-
+.ex-2-square:active {
+    width: 100%;
+}
 /* /soluzione 2 */
-
 
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+/* soluzione 3 */
+
+/* /soluzione 3 */
+
 .ex-4-square {
     width: 100px;
     height: 100px;
