@@ -96,12 +96,38 @@ transition: 5s;}
     transform: scale(2);
 }
 /* /soluzione ex 9 */
+
 .ex-10-icon {
     font-size: 60px;
 }
+/* soluzione ex 10 */
+@keyframes charge{
+    0%{
+        transform: rotate(1turn);
+    }
+}
+.ex-10-icon{
+    animation: charge 1s linear infinite;
+}
+/* /soluzione ex 10 */
+
 .ex-11-icon {
     font-size: 60px;
 }
+/* soluzione ex 11 */
+@keyframes no-full-charge{
+    0%{
+        transform: rotate(0);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+}
+.ex-11-icon:hover{
+    animation: no-full-charge 1s linear;
+}
+/* /soluzione ex 11 */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
