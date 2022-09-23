@@ -38,6 +38,13 @@ transition: 5s;}
     height: 100px;
     background: red;
 }
+/* soluzione 4 */
+.ex-4-square:hover{
+    background-color: transparent;
+    transition: 3s;
+}
+/* /soluzione 4 */
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
