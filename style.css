@@ -62,12 +62,29 @@ transition: 5s;}
     height: 40px;
     transition: 3s;
 }
-
 /* /soluzione 5 */
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
+/* soluzione ex 6 */
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+/* /soluzione ex 6 */
+/* soluzione ex 7 */
+.ex-7-img:hover{
+    filter: grayscale(.5) brightness(.6);
+    transition: 3s;
+}
+/* /soluzione ex 7 */
+/* soluzione ex 8 */
+.ex-8-img:hover{
+    border-radius: 120px;
+    filter: sepia(.5) contrast(.9);
+    transition: 3s;
+}
+/* /soluzione ex 8 */
 
 .ex-9-img {
     margin: 50px 100px;
