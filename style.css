@@ -17,6 +17,7 @@ transition: 5s;}
 /* soluzione 2 */
 .ex-2-square:active {
     width: 100%;
+    transition: 5s;
 }
 /* /soluzione 2 */
 
