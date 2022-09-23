@@ -51,6 +51,20 @@ transition: 5s;}
     height: 60px;
     background: red;
 }
+/* soluzione 5 */
+.ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+    transition: 3s;
+}
+.ex-5-square:active{
+    width: 40px;
+    height: 40px;
+    transition: 3s;
+}
+
+/* /soluzione 5 */
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
